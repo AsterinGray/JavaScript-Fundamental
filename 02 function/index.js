@@ -1,3 +1,11 @@
+/**
+ * Function in JavaScript
+ * - Function Declaration
+ * - Function Expression / Variable Function
+ * - Arrow Function
+ * - Anonymous Function
+ */
+
 const DEFAULT = "Andy";
 
 function greet(parameter = DEFAULT) {
@@ -17,7 +25,7 @@ console.log(greetFuncExpression("Cindy")); // Greet: Cindy
 
 // Arrow Function
 const greetArrowFunc = (parameter = DEFAULT) => {
-  `Greet: ${parameter}`;
+  return `Greet: ${parameter}`;
 };
 
 console.log(greetArrowFunc()); // Greet: Andy
@@ -30,6 +38,6 @@ BRANDS.map((brand) => {
   console.log(brand);
 });
 
-BRANDS.map(function () {
+BRANDS.map(function (brand) {
   console.log(brand);
 });
