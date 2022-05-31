@@ -1,11 +1,18 @@
 /**
  * Array Destructuring
  */
-const animals = ["Dog", "Cat"];
+const animals = [
+  {
+    type: "Dog",
+    kingdom: "Animalia",
+    color: "Brown",
+  },
+  "Cat",
+];
 
-const [animal1, animal2] = animals;
-console.log(animal1);
-console.log(animal2);
+const [dog, cat] = animals;
+console.log(dog);
+console.log(cat);
 
 /**
  * Object Destructuring
@@ -22,8 +29,8 @@ const car = {
 console.log(car.brand);
 console.log(car.model);
 
-const { brand, model } = car;
-console.log(brand);
+const { transmission, model } = car;
+console.log(transmission);
 console.log(model);
 
 const { brand: merek, power: tenaga } = car;

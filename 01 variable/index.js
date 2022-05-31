@@ -5,7 +5,7 @@
  * 3. Const
  */
 
-// var
+// var (no block scope)
 var variable = "hello world";
 console.log(variable); // Hello World
 
@@ -21,7 +21,7 @@ if (variable === "hello world") {
  */
 console.log(variable); // Halo Dunia
 
-// let
+// let (block scope)
 let variableLet = "Let it go";
 console.log(variableLet); // Let it go
 

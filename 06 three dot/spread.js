@@ -19,3 +19,25 @@ const carDetailDesc = {
 
 const carDesc = { ...carDetailDesc, ...carDetailDesc };
 console.log(carDesc);
+
+const obj = {
+  id: 1,
+  name: "Andy",
+  todos: [
+    {
+      id: 1,
+      type: "Fun",
+      detail: "Play Game",
+    },
+    {
+      id: 1,
+      type: "Work",
+      detail: "Go To Work",
+    },
+    {
+      id: 1,
+      type: "Fun",
+      detail: "Rebahan",
+    },
+  ],
+};
